@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daniel Jaramillo · Provisto</title>
+<meta name="description" content="Daniel Jaramillo — Gerente Comercial, Provisto. Guarda el contacto.">
+<meta property="og:title" content="Daniel Jaramillo · Provisto">
+<meta property="og:image" content="foto.jpg">
+<link rel="apple-touch-icon" href="foto.jpg">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root{--azul:#22409A;--celeste:#4FB3E8;--txt:#1d2a55;--sub:#5c6b8a;--bg:#eef3fa}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:Raleway,system-ui,sans-serif;background:var(--bg);color:var(--txt);min-height:100vh;display:flex;justify-content:center}
+  .card{width:100%;max-width:420px;background:#fff;min-height:100vh;box-shadow:0 0 40px rgba(34,64,154,.12)}
+  header{background:var(--azul);padding:28px 16px 80px;text-align:center;position:relative;overflow:hidden}
+  header::after{content:"";position:absolute;right:-60px;top:-40px;width:200px;height:200px;border-radius:50%;background:rgba(79,179,232,.18)}
+  .brand{font-weight:800;font-size:26px;letter-spacing:1px;color:#fff;position:relative;z-index:1}
+  .brand span{color:var(--celeste)}
+  .foto{width:132px;height:132px;border-radius:50%;object-fit:cover;border:5px solid #fff;margin:-66px auto 0;display:block;position:relative;z-index:2;box-shadow:0 6px 20px rgba(0,0,0,.15)}
+  .info{text-align:center;padding:16px 16px 8px}
+  h1{font-size:24px;font-weight:600;color:var(--azul)}
+  .cargo{color:var(--celeste);font-weight:600;margin-top:4px}
+  .empresa{color:var(--sub);font-size:14px;margin-top:2px}
+  .guardar{display:block;margin:20px 16px;padding:16px;background:var(--azul);color:#fff;text-align:center;border-radius:14px;font-weight:600;font-size:17px;text-decoration:none;box-shadow:0 6px 16px rgba(34,64,154,.3)}
+  .guardar:active{transform:scale(.98)}
+  .acciones{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;padding:0 16px}
+  .acciones a{display:flex;flex-direction:column;align-items:center;gap:6px;text-decoration:none;color:var(--txt);font-size:12px;font-weight:600}
+  .ico{width:52px;height:52px;border-radius:50%;background:var(--bg);display:grid;place-items:center}
+  .ico svg{width:24px;height:24px;fill:none;stroke:var(--azul);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  ul{list-style:none;margin:24px 16px;border-top:1px solid #e3e9f3}
+  li{display:flex;gap:14px;align-items:center;padding:14px 4px;border-bottom:1px solid #e3e9f3;font-size:15px}
+  li small{display:block;color:var(--sub);font-size:12px}
+  li a{color:var(--txt);text-decoration:none;word-break:break-all}
+  li svg{width:20px;height:20px;flex:none;fill:none;stroke:var(--celeste);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  footer{text-align:center;color:var(--sub);font-size:12px;padding:8px 16px 28px}
+</style>
+</head>
+<body>
+<main class="card">
+  <header><div class="brand">PRO<span>VISTO</span></div></header>
+  <img class="foto" src="foto.jpg" alt="Daniel Jaramillo">
+  <section class="info">
+    <h1>Daniel Jaramillo</h1>
+    <p class="cargo">Gerente Comercial</p>
+    <p class="empresa">Provisto · Quito, Ecuador</p>
+  </section>
+
+  <a class="guardar" href="daniel-jaramillo.vcf" download="Daniel Jaramillo.vcf">＋ Guardar contacto</a>
+
+  <nav class="acciones">
+    <a href="tel:+593987067688"><span class="ico"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></span>Llamar</a>
+    <a href="https://wa.me/593987067688"><span class="ico"><svg viewBox="0 0 24 24"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.5A8.4 8.4 0 1 1 21 11.5z"/></svg></span>WhatsApp</a>
+    <a href="mailto:comercial@provistoec.com"><span class="ico"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg></span>Correo</a>
+    <a href="https://www.provistoec.com"><span class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg></span>Web</a>
+  </nav>
+
+  <ul>
+    <li><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><div><small>Celular</small><a href="tel:+593987067688">+593 9 8706 7688</a></div></li>
+    <li><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg><div><small>Correo</small><a href="mailto:comercial@provistoec.com">comercial@provistoec.com</a></div></li>
+    <li><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg><div><small>Sitio web</small><a href="https://www.provistoec.com">www.provistoec.com</a></div></li>
+    <li><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><div><small>Ubicación</small>Quito – Ecuador</div></li>
+  </ul>
+  <footer>Provisto · www.provistoec.com</footer>
+</main>
+</body>
+</html>
